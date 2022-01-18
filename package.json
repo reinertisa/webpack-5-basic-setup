@@ -1,0 +1,22 @@
+{
+  "name": "webpack-5-basic-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "cross-env NODE_ENV=production webpack --watch",
+    "build-dev": "cross-env NODe_ENV=development webpack --watch"
+  },
+  "repository": "https://github.com/reinertisa/webpack-5-basic-setup.git",
+  "author": "Isa Reinert <reinert.isa@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}

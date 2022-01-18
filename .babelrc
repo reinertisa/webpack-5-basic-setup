@@ -1,0 +1,7 @@
+{
+  // @babel/preset-env is going to figure out automatically 
+  // has some default settings of what the kinda latest browser support,
+  // how much backward compatibility we should have
+  // it is sort of reasonable based on usage statics on the web.
+  "presets": ["@babel/preset-env"]
+}
